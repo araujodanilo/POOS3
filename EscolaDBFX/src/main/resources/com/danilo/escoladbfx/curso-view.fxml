@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.danilo.escoladbfx.controller.CursoController"
+      prefHeight="400.0" prefWidth="600.0">
+    <padding>
+        <Insets top="20" bottom="20" left="20" right="20"/>
+    </padding>
+    <HBox>
+        <padding>
+            <Insets top="10" bottom="10" left="10" right="10"/>
+        </padding>
+        <Label text="Nome curso: "/>
+        <TextField fx:id="txtNomeCurso"/>
+    </HBox>
+    <HBox>
+        <padding>
+            <Insets top="20" bottom="20"/>
+        </padding>
+        <Button fx:id="btnNovo" text="Novo" onAction="#limparCampos"/>
+        <Button fx:id="btnSalvar" text="Salvar" onAction="#salvar"/>
+        <Button fx:id="btnAtualizar" text="Atualizar" onAction="#atualizar"/>
+        <Button fx:id="btnExcluir" text="Excluir" onAction="#excluir"/>
+    </HBox>
+    <TableView fx:id="tblCurso" onMouseClicked="#selecionaCurso" prefHeight="200" prefWidth="200">
+        <columns>
+            <TableColumn fx:id="colIdCurso" text="ID"/>
+            <TableColumn fx:id="colNomeCurso" text="Nome"/>
+        </columns>
+    </TableView>
+</VBox>

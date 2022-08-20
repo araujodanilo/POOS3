@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.danilo.escoladbfx.controller.AlunoController">
+    <padding>
+        <Insets topRightBottomLeft="20" />
+    </padding>
+    <VBox>
+        <padding>
+            <Insets topRightBottomLeft="10"/>
+        </padding>
+        <HBox>
+            <Label text="Nome Aluno:"/>
+            <TextField fx:id="txtNomeAluno"/>
+        </HBox>
+        <HBox>
+            <Label text="Prontuario Aluno:"/>
+            <TextField fx:id="txtProntuarioAluno"/>
+        </HBox>
+        <HBox>
+            <Label text="Nome Cidade:"/>
+            <ComboBox fx:id="comboCidade"/>
+        </HBox>
+        <HBox>
+            <Label text="Nome Curso:"/>
+            <ComboBox fx:id="comboCurso"/>
+        </HBox>
+    </VBox>
+    <HBox>
+        <padding>
+            <Insets bottom="20" top="20" />
+        </padding>
+        <Button fx:id="btnNovo" text="Novo" onAction="#limparCampos"/>
+        <Button fx:id="btnSalvar" text="Salvar" onAction="#salvar"/>
+        <Button fx:id="btnAtualizar" text="Atualizar" onAction="#atualizar"/>
+        <Button fx:id="btnExcluir" text="Excluir" onAction="#excluir"/>
+    </HBox>
+    <TableView fx:id="tblAluno" onMouseClicked="#selecionaAluno" prefHeight="200" prefWidth="200">
+        <columns>
+            <TableColumn fx:id="colIdAluno" text="ID"/>
+            <TableColumn fx:id="colNomeAluno" text="Nome"/>
+            <TableColumn fx:id="colProntuarioAluno" text="Nome"/>
+            <TableColumn fx:id="colNomeCurso" text="Curso"/>
+            <TableColumn fx:id="colNomeCidade" text="Cidade"/>
+        </columns>
+    </TableView>
+</VBox>
