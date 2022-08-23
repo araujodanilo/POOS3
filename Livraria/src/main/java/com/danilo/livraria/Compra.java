@@ -7,11 +7,13 @@ public class Compra {
     private String dataCompra;
     private double totalCompra;
     private ItensCompra[] itensCompra = new ItensCompra[5];
+    private Cliente cliente;
 
-    public Compra(String numeroCompra, String dataCompra, ItensCompra[] itensCompra) {
+    public Compra(String numeroCompra, String dataCompra, Cliente cliente, ItensCompra[] itensCompra) {
         this.numeroCompra = numeroCompra;
         this.dataCompra = dataCompra;
         this.itensCompra = itensCompra;
+        this.cliente =  cliente;
     }
 
     public Compra() {
@@ -62,6 +64,12 @@ public class Compra {
     }
 
     public void mostrarDados() {
-        System.out.println("Numero da Compra: " + this.numeroCompra + "\nData: " + this.dataCompra + "\nValor total: " + this.totalCompra + "\n");
+        System.out.println("Numero da Compra: " + this.numeroCompra +" \nData: " + this.dataCompra + "\nValor total: " + this.totalCompra + "\n");
+        for (ItensCompra iC : itensCompra){
+            if (iC != null){
+                iC.mostrarDados();
+            }
+        }
+        System.out.println();
     }
 }

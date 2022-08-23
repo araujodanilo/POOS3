@@ -37,22 +37,11 @@ public class Principal {
 
         Cliente cliente = new Cliente("José", "12345678911");
 
-        Compra compra = new Compra("1", "01/01/2022", itensCompras);
+        Compra compra = new Compra("1", "01/01/2022", cliente, itensCompras);
 
         compra.calcularValorTotal();
 
         compra.mostrarDados();
-        for (ItensCompra itensCompra: compra.getItensCompra()){
-            if (itensCompra != null){
-                itensCompra.mostrarDados();
-                itensCompra.getLivro().mostrarDados();
-                System.out.println("----------------------------------");
-            }
-        }
-
-
-
-
 
     }
 }

@@ -7,7 +7,7 @@ public class Editora {
     public Editora() {
     }
 
-    public Editora(String cnpj, String razaoSocial) {
+    public Editora(String razaoSocial, String cnpj) {
         this.cnpj = cnpj;
         this.razaoSocial = razaoSocial;
     }
@@ -29,6 +29,6 @@ public class Editora {
     }
 
     public void mostrarDados() {
-        System.out.println("Razao social: " + this.razaoSocial + "\nCNPJ: " + this.cnpj + "\n");
+        System.out.println("Razao social: " + this.razaoSocial + "\nCNPJ: " + this.cnpj);
     }
 }

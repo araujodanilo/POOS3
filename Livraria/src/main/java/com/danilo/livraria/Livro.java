@@ -61,6 +61,7 @@ public class Livro {
     }
 
     public void mostrarDados() {
+        System.out.println();
         System.out.println("Titulo: " + this.titulo + "\nAno: " + this.anoPublicado + "\nPreço: " + this.preco);
         editora.mostrarDados();
         System.out.println("Autores:");
@@ -69,6 +70,6 @@ public class Livro {
                 autor.mostrarDados();
             }
         }
-        System.out.println("\n");
+        System.out.println();
     }
 }

@@ -4,7 +4,6 @@ public class ItensCompra {
     private int quantidade;
     private double valorParcial;
     private Livro livro;
-
     public ItensCompra() {
     }
 
@@ -42,7 +41,7 @@ public class ItensCompra {
     }
 
     public void mostrarDados() {
-        System.out.println("Quantidade: " + this.quantidade + "\nValor Parcial: " + this.valorParcial + "\n");
+        System.out.println("Quantidade: " + this.quantidade + "\nValor Parcial: " + this.valorParcial);
         livro.mostrarDados();
     }
 }

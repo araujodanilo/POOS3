@@ -28,6 +28,6 @@ public class Cliente {
     }
 
     public void mostrarDados() {
-        System.out.println("Nome: " + this.nome + "\nCPF: " + this.cpf + "\n");
+        System.out.println("Cliente: " + this.nome + "\nCPF: " + this.cpf);
     }
 }

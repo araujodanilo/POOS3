@@ -28,6 +28,6 @@ public class Autor {
     }
 
     public void mostrarDados(){
-        System.out.println("Nome: " +this.nome + "\nTelefone: " + this.telefone + "\n");
+        System.out.println("Autor: " +this.nome + "\nTelefone: " + this.telefone);
     }
 }
