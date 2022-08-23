@@ -1,6 +1,6 @@
-package com.danilo.provacopadomundo.controller;
+package com.danilo.provacopadomundofx.controller;
 
-import com.danilo.provacopadomundo.MainApplication;
+import com.danilo.provacopadomundofx.MainApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

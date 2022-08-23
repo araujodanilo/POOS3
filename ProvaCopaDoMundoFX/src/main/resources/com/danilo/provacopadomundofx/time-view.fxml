@@ -6,7 +6,7 @@
 <?import javafx.geometry.Insets?>
 <VBox xmlns="http://javafx.com/javafx"
       xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.danilo.provacopadomundo.controller.TimeController"
+      fx:controller="com.danilo.provacopadomundofx.controller.TimeController"
       prefHeight="400.0" prefWidth="600.0">
     <padding>
         <Insets topRightBottomLeft="20.0"/>

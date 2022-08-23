@@ -1,7 +1,7 @@
-package com.danilo.provacopadomundo.data;
+package com.danilo.provacopadomundofx.data;
 
-import com.danilo.provacopadomundo.model.Partida;
-import com.danilo.provacopadomundo.model.Time;
+import com.danilo.provacopadomundofx.model.Partida;
+import com.danilo.provacopadomundofx.model.Time;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

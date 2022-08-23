@@ -1,7 +1,7 @@
-package com.danilo.provacopadomundo.controller;
+package com.danilo.provacopadomundofx.controller;
 
-import com.danilo.provacopadomundo.data.TimeSQLiteDAO;
-import com.danilo.provacopadomundo.model.Time;
+import com.danilo.provacopadomundofx.data.TimeSQLiteDAO;
+import com.danilo.provacopadomundofx.model.Time;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

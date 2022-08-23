@@ -1,4 +1,4 @@
-package com.danilo.provacopadomundo.model;
+package com.danilo.provacopadomundofx.model;
 
 public interface IMostrarDados {
     void mostrarDados();

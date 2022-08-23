@@ -1,4 +1,4 @@
-package com.danilo.provacopadomundo.data;
+package com.danilo.provacopadomundofx.data;
 
 import java.util.List;
 

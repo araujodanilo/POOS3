@@ -4,12 +4,12 @@ module com.danilo.provacopadomundo {
     requires java.sql;
 
 
-    opens com.danilo.provacopadomundo to javafx.fxml;
-    exports com.danilo.provacopadomundo;
-    exports com.danilo.provacopadomundo.data;
-    opens com.danilo.provacopadomundo.data to javafx.fxml;
-    exports com.danilo.provacopadomundo.model;
-    opens com.danilo.provacopadomundo.model to javafx.fxml;
-    exports com.danilo.provacopadomundo.controller;
-    opens com.danilo.provacopadomundo.controller to javafx.fxml;
+    opens com.danilo.provacopadomundofx to javafx.fxml;
+    exports com.danilo.provacopadomundofx;
+    exports com.danilo.provacopadomundofx.data;
+    opens com.danilo.provacopadomundofx.data to javafx.fxml;
+    exports com.danilo.provacopadomundofx.model;
+    opens com.danilo.provacopadomundofx.model to javafx.fxml;
+    exports com.danilo.provacopadomundofx.controller;
+    opens com.danilo.provacopadomundofx.controller to javafx.fxml;
 }

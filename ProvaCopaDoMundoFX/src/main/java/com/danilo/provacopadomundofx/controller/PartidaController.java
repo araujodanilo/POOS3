@@ -1,9 +1,9 @@
-package com.danilo.provacopadomundo.controller;
+package com.danilo.provacopadomundofx.controller;
 
-import com.danilo.provacopadomundo.data.PartidaSQLiteDAO;
-import com.danilo.provacopadomundo.data.TimeSQLiteDAO;
-import com.danilo.provacopadomundo.model.Partida;
-import com.danilo.provacopadomundo.model.Time;
+import com.danilo.provacopadomundofx.data.PartidaSQLiteDAO;
+import com.danilo.provacopadomundofx.data.TimeSQLiteDAO;
+import com.danilo.provacopadomundofx.model.Partida;
+import com.danilo.provacopadomundofx.model.Time;
 import javafx.beans.property.ReadOnlyStringWrapper;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

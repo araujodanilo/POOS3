@@ -1,9 +1,9 @@
-package com.danilo.provacopadomundo;
+package com.danilo.provacopadomundofx;
 
-import com.danilo.provacopadomundo.data.PartidaSQLiteDAO;
-import com.danilo.provacopadomundo.data.TimeSQLiteDAO;
-import com.danilo.provacopadomundo.model.Partida;
-import com.danilo.provacopadomundo.model.Time;
+import com.danilo.provacopadomundofx.data.PartidaSQLiteDAO;
+import com.danilo.provacopadomundofx.data.TimeSQLiteDAO;
+import com.danilo.provacopadomundofx.model.Partida;
+import com.danilo.provacopadomundofx.model.Time;
 
 import java.util.ArrayList;
 import java.util.List;
