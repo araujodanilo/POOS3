@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Pizzaria" />
+        <module name="InterfaceBanco" />
+        <module name="Prova2" />
+        <module name="EscolaDBFX" />
+        <module name="LivrariaComArrayList" />
+        <module name="CopaDoMundo2022" />
+        <module name="Funcionario" />
+        <module name="ProvaImobiliaria" />
+        <module name="Livraria" />
+        <module name="ProvaCopaDoMundo" />
+        <module name="TipoGenericos" />
+        <module name="EscolaDBDAO" />
+        <module name="EscolaAcessoDB" />
+        <module name="Universidade" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="17" />
+      <module name="EscolaDBFX (1)" target="17" />
+      <module name="EscolaDBFX (2)" target="17" />
+      <module name="EscolaDBFX2" target="17" />
+      <module name="ProvaCampeonato" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
