@@ -13,7 +13,7 @@ public class ConnectionFactory implements AutoCloseable{
     public static Connection abrirConexao(){
         if (conn == null){
             try{
-                conn = DriverManager.getConnection("jdbc:sqlite:ProvaCopaDoMundo/jogos.db");
+                conn = DriverManager.getConnection("jdbc:sqlite:ProvaCopaDoMundoFX/jogos.db");
             }catch (SQLException e){
                 e.printStackTrace();
             }
