@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.chart.NumberAxis?>
+<VBox prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.danilo.provacopadomundo.controller.PartidaController">
+    <padding>
+        <Insets topRightBottomLeft="20.0" />
+    </padding>
+    <HBox alignment="CENTER">
+        <padding>
+            <Insets topRightBottomLeft="10" />
+        </padding>
+        <VBox>
+            <padding>
+                <Insets topRightBottomLeft="5"/>
+            </padding>
+            <HBox alignment="CENTER_LEFT">
+                <Label text="Primeiro time:" />
+                <ComboBox fx:id="comboTime1" />
+            </HBox>
+            <HBox>
+                <Label text="Placar time 1:" />
+                <Spinner editable="true" fx:id="placarTime1" prefWidth="75"/>
+            </HBox>
+        </VBox>
+        <VBox>
+            <padding>
+                <Insets topRightBottomLeft="5"/>
+            </padding>
+            <HBox>
+                <Label text="Segundo time:" />
+                <ComboBox fx:id="comboTime2" />
+            </HBox>
+            <HBox>
+                <Label text="Placar time 2:" />
+                <Spinner editable="true" fx:id="placarTime2" prefWidth="75" />
+            </HBox>
+        </VBox>
+    </HBox>
+    <HBox alignment="CENTER">
+        <Label text="Data do jogo:" />
+        <DatePicker fx:id="dataJogo" />
+    </HBox>
+    <HBox alignment="CENTER">
+        <padding>
+            <Insets bottom="20" top="20" />
+        </padding>
+        <Button fx:id="btnNovo" onAction="#limparCampos" text="Novo" />
+        <Button fx:id="btnSalvar" onAction="#salvar" text="Salvar" />
+        <Button fx:id="btnAtualizar" onAction="#atualizar" text="Atualizar" />
+        <Button fx:id="btnExcluir" onAction="#excluir" text="Excluir" />
+    </HBox>
+    <TableView fx:id="tblTime" onMouseClicked="#selecionaPartida" prefHeight="200" prefWidth="200">
+        <columns>
+            <TableColumn fx:id="colIDPartida" text="ID" prefWidth="20" />
+            <TableColumn fx:id="colDataPartida" text="Data" prefWidth="120" />
+            <TableColumn fx:id="colTime1" text="Time One" />
+            <TableColumn fx:id="colPlacarTime1" text="Gols do Time 1" prefWidth="120" />
+            <TableColumn fx:id="colTime2" text="Time Two" />
+            <TableColumn fx:id="colPlacarTime2" text="Gols do Time 2" prefWidth="120" />
+        </columns>
+    </TableView>
+</VBox>
