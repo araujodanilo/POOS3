@@ -1,9 +1,7 @@
 package com.danilo.escoladbfx;
 
 import com.danilo.escoladbfx.data.CidadeSQLiteDAO;
-import com.danilo.escoladbfx.data.CursoSQLiteDAO;
 import com.danilo.escoladbfx.model.Cidade;
-import com.danilo.escoladbfx.model.Curso;
 
 import java.util.List;
 

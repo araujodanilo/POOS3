@@ -1,8 +1,6 @@
 package com.danilo.escoladbfx.data;
 
-import com.danilo.escoladbfx.data.GenericDAO;
 import com.danilo.escoladbfx.model.Cidade;
-import com.danilo.escoladbfx.model.Curso;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

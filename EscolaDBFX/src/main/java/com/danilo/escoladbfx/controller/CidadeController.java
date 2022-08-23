@@ -2,7 +2,6 @@ package com.danilo.escoladbfx.controller;
 
 import com.danilo.escoladbfx.data.CidadeSQLiteDAO;
 import com.danilo.escoladbfx.model.Cidade;
-import com.danilo.escoladbfx.model.Curso;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
