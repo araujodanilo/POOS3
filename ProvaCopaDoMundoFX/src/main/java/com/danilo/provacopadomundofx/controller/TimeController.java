@@ -72,6 +72,8 @@ public class TimeController implements Initializable {
 
     }
 
+    // Aqui não tem regras de banco para chaves estrangeiras então pode ter a possibilidade de exluir mesmo se ele estiver presente na partida.
+
     public void excluir(ActionEvent actionEvent) {
         Time time = tblTime.getSelectionModel().getSelectedItem();
         timeSQLiteDAO.excluir(time);
