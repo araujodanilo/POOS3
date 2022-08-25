@@ -4,8 +4,7 @@ public class Curso implements IMostrarDados{
     private int idCurso;
     private String nome;
 
-    private Curso(){
-
+    public Curso(){
     }
 
     public Curso(int idCurso, String nome) {
