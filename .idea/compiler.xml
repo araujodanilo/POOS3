@@ -16,6 +16,7 @@
         <module name="Funcionario" />
         <module name="ProvaImobiliaria" />
         <module name="Livraria" />
+        <module name="ProvaCopaDoMundo" />
         <module name="TipoGenericos" />
         <module name="EscolaDBDAO" />
         <module name="EscolaAcessoDB" />
@@ -28,7 +29,6 @@
       <module name="EscolaDBFX (2)" target="17" />
       <module name="EscolaDBFX2" target="17" />
       <module name="ProvaCampeonato" target="17" />
-      <module name="ProvaCopaDoMundo" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
